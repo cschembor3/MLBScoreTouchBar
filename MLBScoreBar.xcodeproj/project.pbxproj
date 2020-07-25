@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2BC3DF124BBE32600DA9AE1 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D2BC3DF024BBE32600DA9AE1 /* Alamofire */; };
+		D2BC3DF324BBE58600DA9AE1 /* ScoreScrubberSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BC3DF224BBE58600DA9AE1 /* ScoreScrubberSource.swift */; };
 		D2BEE35724B54798007CDDA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BEE35624B54798007CDDA9 /* AppDelegate.swift */; };
 		D2BEE35924B54798007CDDA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BEE35824B54798007CDDA9 /* ContentView.swift */; };
 		D2BEE35B24B5479A007CDDA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2BEE35A24B5479A007CDDA9 /* Assets.xcassets */; };
@@ -29,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D2BC3DF224BBE58600DA9AE1 /* ScoreScrubberSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreScrubberSource.swift; sourceTree = "<group>"; };
 		D2BEE35324B54798007CDDA9 /* MLBScoreBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLBScoreBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2BEE35624B54798007CDDA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2BEE35824B54798007CDDA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,6 +53,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2BEE37D24BA6807007CDDA9 /* SnapKit in Frameworks */,
+				D2BC3DF124BBE32600DA9AE1 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +97,7 @@
 				D2BEE36324B5479A007CDDA9 /* MLBScoreBar.entitlements */,
 				D2BEE35C24B5479A007CDDA9 /* Preview Content */,
 				D2BEE37924B54CD5007CDDA9 /* MLBScoreViewController.swift */,
+				D2BC3DF224BBE58600DA9AE1 /* ScoreScrubberSource.swift */,
 			);
 			path = MLBScoreBar;
 			sourceTree = "<group>";
@@ -132,6 +137,7 @@
 			name = MLBScoreBar;
 			packageProductDependencies = (
 				D2BEE37C24BA6807007CDDA9 /* SnapKit */,
+				D2BC3DF024BBE32600DA9AE1 /* Alamofire */,
 			);
 			productName = MLBScoerBar;
 			productReference = D2BEE35324B54798007CDDA9 /* MLBScoreBar.app */;
@@ -185,6 +191,7 @@
 			mainGroup = D2BEE34A24B54798007CDDA9;
 			packageReferences = (
 				D2BEE37B24BA6807007CDDA9 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				D2BC3DEF24BBE32600DA9AE1 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = D2BEE35424B54798007CDDA9 /* Products */;
 			projectDirPath = "";
@@ -225,6 +232,7 @@
 				D2BEE37824B548A4007CDDA9 /* WindowController.swift in Sources */,
 				D2BEE37A24B54CD5007CDDA9 /* MLBScoreViewController.swift in Sources */,
 				D2BEE35724B54798007CDDA9 /* AppDelegate.swift in Sources */,
+				D2BC3DF324BBE58600DA9AE1 /* ScoreScrubberSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +496,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		D2BC3DEF24BBE32600DA9AE1 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.1;
+			};
+		};
 		D2BEE37B24BA6807007CDDA9 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit";
@@ -499,6 +515,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		D2BC3DF024BBE32600DA9AE1 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D2BC3DEF24BBE32600DA9AE1 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
 		D2BEE37C24BA6807007CDDA9 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = D2BEE37B24BA6807007CDDA9 /* XCRemoteSwiftPackageReference "SnapKit" */;
