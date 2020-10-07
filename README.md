@@ -1,2 +1,2 @@
-# MLBScoreTouchBar
-macOS touchbar app for showing real-time MLB scores
+# NHLScoreTouchBar
+macOS touchbar app for showing real-time NHL scores
