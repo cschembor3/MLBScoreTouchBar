@@ -1,6 +1,6 @@
 //
 //  ScoreScrubberSource.swift
-//  MLBScoreBar
+//  NHLScoreBar
 //
 //  Created by Connor Schembor on 7/12/20.
 //  Copyright © 2020 Connor Schembor. All rights reserved.
@@ -17,8 +17,8 @@ class ScoreScrubberSource: NSObject, NSScrubberDelegate, NSScrubberDataSource {
     
     func scrubber(_ scrubber: NSScrubber, viewForItemAt index: Int) -> NSScrubberItemView {
         let scoreView = NSScrubberItemView()
-        let team1Label = NSTextField(labelWithString: "NYM: 10")
-        let team2Label = NSTextField(labelWithString: "NYY: 0")
+        let team1Label = NSTextField(labelWithString: "NJD: 6")
+        let team2Label = NSTextField(labelWithString: "PHI: 0")
         scoreView.addSubview(team1Label)
         scoreView.addSubview(team2Label)
         team1Label.font = NSFont(name: "System", size: 10)

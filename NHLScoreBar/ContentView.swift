@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  MLBScoerBar
+//  NHLScoreBar
 //
 //  Created by Connor Schembor on 7/7/20.
 //  Copyright © 2020 Connor Schembor. All rights reserved.

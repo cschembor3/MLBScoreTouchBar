@@ -1,6 +1,6 @@
 //
 //  WindowController.swift
-//  MLBScoerBar
+//  NHLScoreBar
 //
 //  Created by Connor Schembor on 7/7/20.
 //  Copyright © 2020 Connor Schembor. All rights reserved.
@@ -12,7 +12,7 @@ import AppKit
 class WindowController: NSWindowController {
     @available(OSX 10.12.2, *)
       override func makeTouchBar() -> NSTouchBar? {
-      guard let viewController = contentViewController as? MLBScoreViewController else {
+      guard let viewController = contentViewController as? NHLScoreViewController else {
         return nil
       }
       return viewController.makeTouchBar()

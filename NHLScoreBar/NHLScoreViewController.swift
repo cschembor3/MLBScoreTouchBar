@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  MLBScoerBar
+//  NHLScoreBar
 //
 //  Created by Connor Schembor on 7/7/20.
 //  Copyright © 2020 Connor Schembor. All rights reserved.
@@ -10,12 +10,12 @@ import Foundation
 import AppKit
 import SnapKit
 
-class MLBScoreViewController: NSViewController {
+class NHLScoreViewController: NSViewController {
     
 }
 
 @available(OSX 10.12.1, *)
-extension MLBScoreViewController: NSTouchBarDelegate {
+extension NHLScoreViewController: NSTouchBarDelegate {
     
   override func makeTouchBar() -> NSTouchBar? {
     let touchBar = NSTouchBar()

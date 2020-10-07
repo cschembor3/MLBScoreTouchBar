@@ -1,15 +1,15 @@
 //
-//  MLBScoerBarTests.swift
-//  MLBScoerBarTests
+//  NHLScoreBarTests.swift
+//  NHLScoreBarTests
 //
 //  Created by Connor Schembor on 7/7/20.
 //  Copyright © 2020 Connor Schembor. All rights reserved.
 //
 
 import XCTest
-@testable import MLBScoreBar
+@testable import NHLScoreBar
 
-class MLBScoerBarTests: XCTestCase {
+class NHLScoreBarTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

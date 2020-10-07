@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1150"
+   LastUpgradeVersion = "1200"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D2BEE35224B54798007CDDA9"
-               BuildableName = "MLBScoreBar.app"
-               BlueprintName = "MLBScoreBar"
-               ReferencedContainer = "container:MLBScoreBar.xcodeproj">
+               BuildableName = "NHLScoreBar.app"
+               BlueprintName = "NHLScoreBar"
+               ReferencedContainer = "container:NHLScoreBar.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D2BEE36724B5479A007CDDA9"
-               BuildableName = "MLBScoreBarTests.xctest"
-               BlueprintName = "MLBScoreBarTests"
-               ReferencedContainer = "container:MLBScoreBar.xcodeproj">
+               BuildableName = "NHLScoreBarTests.xctest"
+               BlueprintName = "NHLScoreBarTests"
+               ReferencedContainer = "container:NHLScoreBar.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D2BEE35224B54798007CDDA9"
-            BuildableName = "MLBScoreBar.app"
-            BlueprintName = "MLBScoreBar"
-            ReferencedContainer = "container:MLBScoreBar.xcodeproj">
+            BuildableName = "NHLScoreBar.app"
+            BlueprintName = "NHLScoreBar"
+            ReferencedContainer = "container:NHLScoreBar.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D2BEE35224B54798007CDDA9"
-            BuildableName = "MLBScoreBar.app"
-            BlueprintName = "MLBScoreBar"
-            ReferencedContainer = "container:MLBScoreBar.xcodeproj">
+            BuildableName = "NHLScoreBar.app"
+            BlueprintName = "NHLScoreBar"
+            ReferencedContainer = "container:NHLScoreBar.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

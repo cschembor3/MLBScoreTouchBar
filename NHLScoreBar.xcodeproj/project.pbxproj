@@ -16,7 +16,7 @@
 		D2BEE36124B5479A007CDDA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2BEE35F24B5479A007CDDA9 /* Main.storyboard */; };
 		D2BEE36D24B5479A007CDDA9 /* MLBScoreBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BEE36C24B5479A007CDDA9 /* MLBScoreBarTests.swift */; };
 		D2BEE37824B548A4007CDDA9 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BEE37724B548A4007CDDA9 /* WindowController.swift */; };
-		D2BEE37A24B54CD5007CDDA9 /* MLBScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BEE37924B54CD5007CDDA9 /* MLBScoreViewController.swift */; };
+		D2BEE37A24B54CD5007CDDA9 /* NHLScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BEE37924B54CD5007CDDA9 /* NHLScoreViewController.swift */; };
 		D2BEE37D24BA6807007CDDA9 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D2BEE37C24BA6807007CDDA9 /* SnapKit */; };
 /* End PBXBuildFile section */
 
@@ -32,19 +32,19 @@
 
 /* Begin PBXFileReference section */
 		D2BC3DF224BBE58600DA9AE1 /* ScoreScrubberSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreScrubberSource.swift; sourceTree = "<group>"; };
-		D2BEE35324B54798007CDDA9 /* MLBScoreBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLBScoreBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2BEE35324B54798007CDDA9 /* NHLScoreBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NHLScoreBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2BEE35624B54798007CDDA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2BEE35824B54798007CDDA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D2BEE35A24B5479A007CDDA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2BEE35D24B5479A007CDDA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D2BEE36024B5479A007CDDA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D2BEE36224B5479A007CDDA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2BEE36324B5479A007CDDA9 /* MLBScoreBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MLBScoreBar.entitlements; sourceTree = "<group>"; };
-		D2BEE36824B5479A007CDDA9 /* MLBScoreBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLBScoreBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2BEE36324B5479A007CDDA9 /* NHLScoreBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NHLScoreBar.entitlements; sourceTree = "<group>"; };
+		D2BEE36824B5479A007CDDA9 /* NHLScoreBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NHLScoreBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2BEE36C24B5479A007CDDA9 /* MLBScoreBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLBScoreBarTests.swift; sourceTree = "<group>"; };
 		D2BEE36E24B5479A007CDDA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2BEE37724B548A4007CDDA9 /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
-		D2BEE37924B54CD5007CDDA9 /* MLBScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLBScoreViewController.swift; sourceTree = "<group>"; };
+		D2BEE37924B54CD5007CDDA9 /* NHLScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NHLScoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +70,8 @@
 		D2BEE34A24B54798007CDDA9 = {
 			isa = PBXGroup;
 			children = (
-				D2BEE35524B54798007CDDA9 /* MLBScoreBar */,
-				D2BEE36B24B5479A007CDDA9 /* MLBScoreBarTests */,
+				D2BEE35524B54798007CDDA9 /* NHLScoreBar */,
+				D2BEE36B24B5479A007CDDA9 /* NHLScoreBarTests */,
 				D2BEE35424B54798007CDDA9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,13 +79,13 @@
 		D2BEE35424B54798007CDDA9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2BEE35324B54798007CDDA9 /* MLBScoreBar.app */,
-				D2BEE36824B5479A007CDDA9 /* MLBScoreBarTests.xctest */,
+				D2BEE35324B54798007CDDA9 /* NHLScoreBar.app */,
+				D2BEE36824B5479A007CDDA9 /* NHLScoreBarTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D2BEE35524B54798007CDDA9 /* MLBScoreBar */ = {
+		D2BEE35524B54798007CDDA9 /* NHLScoreBar */ = {
 			isa = PBXGroup;
 			children = (
 				D2BEE35624B54798007CDDA9 /* AppDelegate.swift */,
@@ -94,12 +94,12 @@
 				D2BEE37724B548A4007CDDA9 /* WindowController.swift */,
 				D2BEE35F24B5479A007CDDA9 /* Main.storyboard */,
 				D2BEE36224B5479A007CDDA9 /* Info.plist */,
-				D2BEE36324B5479A007CDDA9 /* MLBScoreBar.entitlements */,
+				D2BEE36324B5479A007CDDA9 /* NHLScoreBar.entitlements */,
 				D2BEE35C24B5479A007CDDA9 /* Preview Content */,
-				D2BEE37924B54CD5007CDDA9 /* MLBScoreViewController.swift */,
+				D2BEE37924B54CD5007CDDA9 /* NHLScoreViewController.swift */,
 				D2BC3DF224BBE58600DA9AE1 /* ScoreScrubberSource.swift */,
 			);
-			path = MLBScoreBar;
+			path = NHLScoreBar;
 			sourceTree = "<group>";
 		};
 		D2BEE35C24B5479A007CDDA9 /* Preview Content */ = {
@@ -110,21 +110,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		D2BEE36B24B5479A007CDDA9 /* MLBScoreBarTests */ = {
+		D2BEE36B24B5479A007CDDA9 /* NHLScoreBarTests */ = {
 			isa = PBXGroup;
 			children = (
 				D2BEE36C24B5479A007CDDA9 /* MLBScoreBarTests.swift */,
 				D2BEE36E24B5479A007CDDA9 /* Info.plist */,
 			);
-			path = MLBScoreBarTests;
+			path = NHLScoreBarTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D2BEE35224B54798007CDDA9 /* MLBScoreBar */ = {
+		D2BEE35224B54798007CDDA9 /* NHLScoreBar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2BEE37124B5479A007CDDA9 /* Build configuration list for PBXNativeTarget "MLBScoreBar" */;
+			buildConfigurationList = D2BEE37124B5479A007CDDA9 /* Build configuration list for PBXNativeTarget "NHLScoreBar" */;
 			buildPhases = (
 				D2BEE34F24B54798007CDDA9 /* Sources */,
 				D2BEE35024B54798007CDDA9 /* Frameworks */,
@@ -134,18 +134,18 @@
 			);
 			dependencies = (
 			);
-			name = MLBScoreBar;
+			name = NHLScoreBar;
 			packageProductDependencies = (
 				D2BEE37C24BA6807007CDDA9 /* SnapKit */,
 				D2BC3DF024BBE32600DA9AE1 /* Alamofire */,
 			);
 			productName = MLBScoerBar;
-			productReference = D2BEE35324B54798007CDDA9 /* MLBScoreBar.app */;
+			productReference = D2BEE35324B54798007CDDA9 /* NHLScoreBar.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D2BEE36724B5479A007CDDA9 /* MLBScoreBarTests */ = {
+		D2BEE36724B5479A007CDDA9 /* NHLScoreBarTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2BEE37424B5479A007CDDA9 /* Build configuration list for PBXNativeTarget "MLBScoreBarTests" */;
+			buildConfigurationList = D2BEE37424B5479A007CDDA9 /* Build configuration list for PBXNativeTarget "NHLScoreBarTests" */;
 			buildPhases = (
 				D2BEE36424B5479A007CDDA9 /* Sources */,
 				D2BEE36524B5479A007CDDA9 /* Frameworks */,
@@ -156,9 +156,9 @@
 			dependencies = (
 				D2BEE36A24B5479A007CDDA9 /* PBXTargetDependency */,
 			);
-			name = MLBScoreBarTests;
+			name = NHLScoreBarTests;
 			productName = MLBScoerBarTests;
-			productReference = D2BEE36824B5479A007CDDA9 /* MLBScoreBarTests.xctest */;
+			productReference = D2BEE36824B5479A007CDDA9 /* NHLScoreBarTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -168,7 +168,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1150;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Connor Schembor";
 				TargetAttributes = {
 					D2BEE35224B54798007CDDA9 = {
@@ -180,7 +180,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D2BEE34E24B54798007CDDA9 /* Build configuration list for PBXProject "MLBScoreBar" */;
+			buildConfigurationList = D2BEE34E24B54798007CDDA9 /* Build configuration list for PBXProject "NHLScoreBar" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -197,8 +197,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2BEE35224B54798007CDDA9 /* MLBScoreBar */,
-				D2BEE36724B5479A007CDDA9 /* MLBScoreBarTests */,
+				D2BEE35224B54798007CDDA9 /* NHLScoreBar */,
+				D2BEE36724B5479A007CDDA9 /* NHLScoreBarTests */,
 			);
 		};
 /* End PBXProject section */
@@ -230,7 +230,7 @@
 			files = (
 				D2BEE35924B54798007CDDA9 /* ContentView.swift in Sources */,
 				D2BEE37824B548A4007CDDA9 /* WindowController.swift in Sources */,
-				D2BEE37A24B54CD5007CDDA9 /* MLBScoreViewController.swift in Sources */,
+				D2BEE37A24B54CD5007CDDA9 /* NHLScoreViewController.swift in Sources */,
 				D2BEE35724B54798007CDDA9 /* AppDelegate.swift in Sources */,
 				D2BC3DF324BBE58600DA9AE1 /* ScoreScrubberSource.swift in Sources */,
 			);
@@ -249,7 +249,7 @@
 /* Begin PBXTargetDependency section */
 		D2BEE36A24B5479A007CDDA9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D2BEE35224B54798007CDDA9 /* MLBScoreBar */;
+			target = D2BEE35224B54798007CDDA9 /* NHLScoreBar */;
 			targetProxy = D2BEE36924B5479A007CDDA9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -292,6 +292,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -352,6 +353,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -383,18 +385,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = MLBScoreBar/MLBScoreBar.entitlements;
+				CODE_SIGN_ENTITLEMENTS = NHLScoreBar/NHLScoreBar.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"MLBScoreBar/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"NHLScoreBar/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = MLBScoreBar/Info.plist;
+				INFOPLIST_FILE = NHLScoreBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = CSchembor.MLBScoreBar;
+				PRODUCT_BUNDLE_IDENTIFIER = CSchembor.NHLScoreBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -404,18 +407,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = MLBScoreBar/MLBScoreBar.entitlements;
+				CODE_SIGN_ENTITLEMENTS = NHLScoreBar/NHLScoreBar.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"MLBScoreBar/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"NHLScoreBar/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = MLBScoreBar/Info.plist;
+				INFOPLIST_FILE = NHLScoreBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = CSchembor.MLBScoreBar;
+				PRODUCT_BUNDLE_IDENTIFIER = CSchembor.NHLScoreBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -438,7 +442,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = CSchembor.MLBScoerBarTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MLBScoreBar.app/Contents/MacOS/MLBScoreBar";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NHLScoreBar.app/Contents/MacOS/NHLScoreBar";
 			};
 			name = Debug;
 		};
@@ -459,14 +463,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = CSchembor.MLBScoerBarTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MLBScoreBar.app/Contents/MacOS/MLBScoreBar";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NHLScoreBar.app/Contents/MacOS/NHLScoreBar";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D2BEE34E24B54798007CDDA9 /* Build configuration list for PBXProject "MLBScoreBar" */ = {
+		D2BEE34E24B54798007CDDA9 /* Build configuration list for PBXProject "NHLScoreBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2BEE36F24B5479A007CDDA9 /* Debug */,
@@ -475,7 +479,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2BEE37124B5479A007CDDA9 /* Build configuration list for PBXNativeTarget "MLBScoreBar" */ = {
+		D2BEE37124B5479A007CDDA9 /* Build configuration list for PBXNativeTarget "NHLScoreBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2BEE37224B5479A007CDDA9 /* Debug */,
@@ -484,7 +488,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2BEE37424B5479A007CDDA9 /* Build configuration list for PBXNativeTarget "MLBScoreBarTests" */ = {
+		D2BEE37424B5479A007CDDA9 /* Build configuration list for PBXNativeTarget "NHLScoreBarTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2BEE37524B5479A007CDDA9 /* Debug */,
