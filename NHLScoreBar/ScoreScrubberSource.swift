@@ -11,8 +11,9 @@ import AppKit
 import SnapKit
 
 class ScoreScrubberSource: NSObject, NSScrubberDelegate, NSScrubberDataSource {
+    
     func numberOfItems(for scrubber: NSScrubber) -> Int {
-        3
+        return 3;
     }
     
     func scrubber(_ scrubber: NSScrubber, viewForItemAt index: Int) -> NSScrubberItemView {

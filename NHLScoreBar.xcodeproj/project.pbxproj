@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D26280A0252D55330073781F /* NHLScoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D262809F252D55330073781F /* NHLScoreService.swift */; };
 		D2BC3DF124BBE32600DA9AE1 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D2BC3DF024BBE32600DA9AE1 /* Alamofire */; };
 		D2BC3DF324BBE58600DA9AE1 /* ScoreScrubberSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BC3DF224BBE58600DA9AE1 /* ScoreScrubberSource.swift */; };
 		D2BEE35724B54798007CDDA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BEE35624B54798007CDDA9 /* AppDelegate.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D262809F252D55330073781F /* NHLScoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NHLScoreService.swift; sourceTree = "<group>"; };
 		D2BC3DF224BBE58600DA9AE1 /* ScoreScrubberSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreScrubberSource.swift; sourceTree = "<group>"; };
 		D2BEE35324B54798007CDDA9 /* NHLScoreBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NHLScoreBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2BEE35624B54798007CDDA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +47,7 @@
 		D2BEE36E24B5479A007CDDA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2BEE37724B548A4007CDDA9 /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 		D2BEE37924B54CD5007CDDA9 /* NHLScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NHLScoreViewController.swift; sourceTree = "<group>"; };
+		D2F2E20D2579B4AF00C7D9B0 /* NHLScoreBarDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NHLScoreBarDebug.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D262809E252D55060073781F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D262809F252D55330073781F /* NHLScoreService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		D2BEE34A24B54798007CDDA9 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +99,8 @@
 		D2BEE35524B54798007CDDA9 /* NHLScoreBar */ = {
 			isa = PBXGroup;
 			children = (
+				D2F2E20D2579B4AF00C7D9B0 /* NHLScoreBarDebug.entitlements */,
+				D262809E252D55060073781F /* Services */,
 				D2BEE35624B54798007CDDA9 /* AppDelegate.swift */,
 				D2BEE35824B54798007CDDA9 /* ContentView.swift */,
 				D2BEE35A24B5479A007CDDA9 /* Assets.xcassets */,
@@ -231,6 +244,7 @@
 				D2BEE35924B54798007CDDA9 /* ContentView.swift in Sources */,
 				D2BEE37824B548A4007CDDA9 /* WindowController.swift in Sources */,
 				D2BEE37A24B54CD5007CDDA9 /* NHLScoreViewController.swift in Sources */,
+				D26280A0252D55330073781F /* NHLScoreService.swift in Sources */,
 				D2BEE35724B54798007CDDA9 /* AppDelegate.swift in Sources */,
 				D2BC3DF324BBE58600DA9AE1 /* ScoreScrubberSource.swift in Sources */,
 			);
@@ -385,7 +399,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = NHLScoreBar/NHLScoreBar.entitlements;
+				CODE_SIGN_ENTITLEMENTS = NHLScoreBar/NHLScoreBarDebug.entitlements;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -432,14 +446,14 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = MLBScoerBarTests/Info.plist;
+				INFOPLIST_FILE = NHLScoreBarTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = CSchembor.MLBScoerBarTests;
+				PRODUCT_BUNDLE_IDENTIFIER = CSchembor.NHLScoreBarTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NHLScoreBar.app/Contents/MacOS/NHLScoreBar";
@@ -453,14 +467,14 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = MLBScoerBarTests/Info.plist;
+				INFOPLIST_FILE = NHLScoreBarTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = CSchembor.MLBScoerBarTests;
+				PRODUCT_BUNDLE_IDENTIFIER = CSchembor.NHLScoreBarTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NHLScoreBar.app/Contents/MacOS/NHLScoreBar";

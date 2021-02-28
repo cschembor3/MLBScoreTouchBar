@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="49Q-uV-fZL">
     <dependencies>
+        <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17156"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -674,7 +675,7 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="MLBScoerBar" customModuleProvider="target"/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="NHLScoreBar" customModuleProvider="target"/>
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -683,7 +684,7 @@
         <!--Window Controller-->
         <scene sceneID="pQk-AP-boz">
             <objects>
-                <windowController id="49Q-uV-fZL" customClass="WindowController" customModule="MLBScoerBar" customModuleProvider="target" sceneMemberID="viewController">
+                <windowController id="49Q-uV-fZL" customClass="WindowController" customModule="NHLScoreBar" customModuleProvider="target" sceneMemberID="viewController">
                     <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" id="LaS-eB-1Vf">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
@@ -701,23 +702,26 @@
             </objects>
             <point key="canvasLocation" x="-83" y="280"/>
         </scene>
-        <!--Score View Controller-->
+        <!--NHLScoreViewController-->
         <scene sceneID="bbO-48-OtV">
             <objects>
-                <viewController id="Zad-ps-Nfb" customClass="MLBScoreViewController" customModule="MLBScoerBar" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="NHLScoreViewController" id="Zad-ps-Nfb" customClass="NHLScoreViewController" customModule="NHLScoreBar" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="Jo4-po-C8l">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BEx-e1-YAe">
-                                <rect key="frame" x="200" y="117" width="81" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="BEx-e1-YAe">
+                                <rect key="frame" x="200" y="118" width="81" height="32"/>
                                 <buttonCell key="cell" type="push" title="Button" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="NxO-Wb-39c">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                             </button>
                         </subviews>
+                        <constraints>
+                            <constraint firstItem="BEx-e1-YAe" firstAttribute="centerX" secondItem="Jo4-po-C8l" secondAttribute="centerX" id="Fqm-M7-fXg"/>
+                            <constraint firstItem="BEx-e1-YAe" firstAttribute="centerY" secondItem="Jo4-po-C8l" secondAttribute="centerY" id="vDS-x0-YrR"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <customObject id="70P-Z7-U6a" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>

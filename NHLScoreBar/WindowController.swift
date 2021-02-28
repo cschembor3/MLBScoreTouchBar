@@ -20,9 +20,9 @@ class WindowController: NSWindowController {
 }
 
 extension NSTouchBar.CustomizationIdentifier {
-    static let mlbScoreBar = NSTouchBar.CustomizationIdentifier("com.mlbscoretouchbar")
+    static let nhlScoreBar = NSTouchBar.CustomizationIdentifier("com.nhlscoretouchbar")
 }
 
 extension NSTouchBarItem.Identifier {
-    static let mlbScoreItem = NSTouchBarItem.Identifier("com.mlbscoretouchbar.gameitem")
+    static let nhlScoreItem = NSTouchBarItem.Identifier("com.nhlscoretouchbar.gameitem")
 }
